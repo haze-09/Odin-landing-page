@@ -38,9 +38,6 @@ body{
     margin:5px 0px;
     
 }
-
-
-
 #links{
     display: flex;
     gap: 25px;
@@ -51,15 +48,62 @@ a{
     color: #e5e7eb;
 }
 
-#links,#footer{
+#links,#footer,#hero-body{
     font-size: 18px;
     font-weight: 300;
+    color: #e5e7eb;
 }
 
 #awe-content{
-    background-color:rebeccapurple;
     flex: 9;
+    display: flex;
 }
+
+#awe-text,#awe-img{
+    display: flex;
+}
+#awe-text{
+    flex:2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#awe-img{
+    flex:1;
+}
+
+#hero{
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    margin: 0;
+}
+
+button{
+    
+    height: 40px;
+    width: 150px;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    font-family: roboto;
+    font-weight: 500;
+    font-size: medium;
+    color: #e5e7eb;
+
+    
+}
+#awe-img{
+    
+    justify-content: center;
+    align-items: center;
+}
+#silly-header{
+    border-radius: 20px;
+    border: 2px solid #e5e7eb;
+}
+
 #random{
     flex:1.5;
 }
@@ -79,5 +123,4 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #e5e7eb;
 }
