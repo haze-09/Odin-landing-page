@@ -2,6 +2,7 @@
 
 body{
     margin: 0;
+    font-family: Roboto;
 }
 #main{
     height: 1250px;
@@ -10,28 +11,73 @@ body{
 }
 #awesome{
     background-color: #1F2937;
-    flex:2;
+    flex:1.85;
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+    margin:0;
     
+}
+#header{
+    flex:1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0px;
+    
+}
+
+#logo{
+    font-weight: 700;
+    font-size: 24px;
+    color: #f9faf8;
+
+}
+
+#logo,#links{
+    margin:5px 0px;
+    
+}
+
+
+
+#links{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+#links,#footer{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#awe-content{
+    background-color:rebeccapurple;
+    flex: 9;
 }
 #random{
     flex:1.5;
 }
 #quote{
     background-color: #e5e7eb;
-    flex:1.25;
+    flex:1.5;
 }
 #cta{
     flex:1;
 }
 #footer{
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: 300;
+    
+    
     background-color: #1F2937;
-    color: #e5e7eb;
     width:100vw;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #e5e7eb;
 }
