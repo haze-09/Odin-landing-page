@@ -27,7 +27,7 @@ body{
     
 }
 
-#logo{
+#logo,#cta-header{
     font-weight: 700;
     font-size: 24px;
     color: #f9faf8;
@@ -48,7 +48,7 @@ a{
     color: #e5e7eb;
 }
 
-#links,#footer,#hero-body{
+#links,#footer,#hero-body,#cta-body{
     font-size: 18px;
     font-weight: 300;
     color: #e5e7eb;
@@ -149,6 +149,32 @@ button{
 }
 #cta{
     flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+#box{
+    margin: 0;
+    background-color: #3882f6;
+    width: 70vw;
+    height: 13vw;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 50px;
+    
+    
+}
+#cta-text{
+    flex: 2;
+}
+#cta-b{
+    border: 2px solid #f9faf8;
+    flex: 1;
+    color: #ffffff;
+
 }
 #footer{
     
